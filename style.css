@@ -34,7 +34,7 @@ body {
     justify-content: flex-end;
     position: absolute;
     right: 60px;
-    bottom: 30px;
+    top: 30px;
 }
 
 .photo {
@@ -201,8 +201,8 @@ button {
     }
 
     .music-btn{
-        right: 40px;
-        bottom: 95px;
+        right: 20px;
+        top: 30px;
     }
 
     .photo img {
@@ -268,7 +268,7 @@ button {
     gap: 5px;
     position: relative;
     z-index: 2;
-    font-family: cursive;
+    font-family: 'Manrope', sans-serif;
 }
 
 .details-text p {
@@ -327,7 +327,7 @@ button {
     .details-text p {
         font-size: 17px;
         line-height: 1.7;
-        font-family: cursive;
+        font-family: 'Manrope', sans-serif;
     }
 
     .details-img {
