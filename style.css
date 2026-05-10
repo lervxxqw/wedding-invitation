@@ -193,6 +193,11 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+.start-btn{
+    max-width: 300px;
+    width: 100%;
+    font-size: 18px;
+}
 
 @media (max-width: 768px) {
 

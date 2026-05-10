@@ -13,9 +13,8 @@ setInterval(() => {
 
     countdown.innerHTML = `${days}д ${hours}год ${minutes}хв ${seconds}с`;
 }, 1000);
-let isPlay = true
+let isPlay = false
 let audio = new Audio('music/paulyudin-wedding-485932.mp3');
-audio.play();
 
 
 function PlayMusic(){
@@ -29,6 +28,7 @@ function PlayMusic(){
         audio.play();
         isPlay = true;
         btn.classList.add("animate__rotateIn",  "animate__animated", "animate__infinite", "wow");
+
     }
 }
 
