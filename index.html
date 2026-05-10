@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запрошення</title>
+    <link rel="icon" type="image/png" href="icon/marriage.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+<section class="hero">
+     <button  class="music-btn" onclick="PlayMusic()">
+         <img id="music-btn" class="vinyl-music animate__rotateIn  animate__animated animate__infinite wow" src="icon/vinyl.png">
+     </button>
+
+    <div class="overlay">
+        <div class="photo">
+            <img class="ph1 animate__animated  animate__fadeInLeft animate__slower wow" src="icon/taras.jpg">
+            <img class="animate__animated  animate__fadeInRight animate__slower wow" src="icon/lera.jpg"></div>
+        <h1 class="animate__animated animate__backInUp animate__slow wow">ТАРАС + ЛЄРА</h1>
+        <p class="heart animate__animated animate__pulse animate__infinite wow">❤</p>
+        <h2 class="animate__animated animate__fadeInDown animate__slow wow">Запрошення на весілля</h2>
+    </div>
+</section>
+
+<section class="date">
+    <h3>ДОРОГІ ГОСТІ!</h3>
+
+    <p>Любі наші друзі!</p>
+    <p>Ми будемо раді розділити з вами радість неповторного для нас дня - </p>
+    <p> дня нашого весілля!!</p>
+    <p>Запрошуємо приєднатися до нашого свята і прикрасити його своєю присутністю.))</p>
+    <h2>Середа | 01 липня 2026</h2>
+    <h5 style="font-size:20px">Субота | 04 липня 2026 - будем святкувати!)</h5>
+</section>
+
+<section class="calendar">
+    <div class="days">
+        <span>ПН</span><span>ВТ</span><span>СР</span>
+        <span>ЧТ</span><span>ПТ</span><span>СБ</span><span>НД</span>
+
+        <span>29</span><span>30</span><span class="active">1</span><span>2</span><span>3</span>
+        <span class="active">4</span>
+        <span>5</span>
+    </div>
+</section>
+
+<section class="timer">
+    <h2>До Весілля залишилось..</h2>
+    <div class="animate__animated animate__pulse animate__infinite wow" id="countdown"></div>
+</section>
+<div class="history">
+    <img class="animate__flipInX animate__animated animate__slow wow" src="icon/foto1.jpg">
+    <img class="animate__flipInY animate__animated animate__slower wow" src="icon/foto2.jpg">
+    <img class="animate__flipInY animate__animated animate__slow wow" src="icon/foto3.jpg">
+    <img class="animate__flipInX animate__animated animate__slower wow" src="icon/foto4.jpg">
+    <img class="animate__flipInX animate__animated animate__slow wow" src="icon/foto5.jpg">
+    <img class="animate__flipInY animate__animated animate__slower wow" src="icon/foto6.jpg">
+</div>
+
+<section class="details">
+    <div class="details-container">
+        <h2 class="details-title animate__swing animate__animated animate__slow wow ">ДЕТАЛІ</h2>
+        <div class="details-card animate__bounceIn animate__animated animate__slower wow">
+            <img src="icon/cat-details1.png" alt="cat" class="details-img top-img">
+            <div class="details-text">
+                <p>Будь ласка, не даруйте нам квіти, ми не зможемо їм забезпечити
+                    належний догляд та турботу.</p>
+                <p>Замість них візьміть незвичайні солодощі з побажанням,
+                    на яке свято нам їх відкрити.</p>
+                <p>Ми дуже цінуємо вашу турботу та увагу до нашої родини!</p>
+                <p>Якщо ви думаєте про подарунок, ми будемо раді,
+                    якщо ви зробите внесок у наш сімейний бюджет.
+                    Це допоможе нам здійснити наші спільні мрії!</p>
+            </div>
+            <img src="icon/cat-details2.jpg" alt="cat" class="details-img bottom-img">
+        </div>
+    </div>
+</section>
+
+<section class="dresscode">
+    <h2 class="animate__lightSpeedInLeft animate__animated animate__slow wow">ДРЕС-КОД</h2>
+
+    <p>Ми дуже стараємось зробити наше свято особливо гарним і будемо вдячні,</p>
+    <p class="margin">якщо ви підтримаєте кольорову гамму нашого весілля. </p>
+
+    <div class="style">
+        <img class="animate__animated animate__fadeInTopLeft animate__slow wow" src="icon/dress-code-man.jpg">
+        <img class="animate__animated animate__fadeInTopRight animate__slow wow" src="icon/dress-code-woman.jpg">
+    </div>
+
+</section>
+
+<section class="form">
+    <h2>Анкета гостя</h2>
+    <h4>Просимо вас підтвердити свою присутність))</h4>
+    <p>Любі наші гості!</p>
+    <p> Ми хочемо, щоб цей день був теплим, веселим і комфортним для кожного з вас ❤️</p>
+    <p>Тому просимо пройти невеличку анкету — це допоможе нам усе організувати та зробити свято ще атмосфернішим🥂</p>
+
+
+    <a href="https://forms.gle/teP8yyoohorhBeqJ8" target="_blank">
+        <button>Погнали</button>
+    </a>
+
+    <p>За більшою інформацією обов'язково приєднуйтесь в телеграм-групу ⤵</p>
+    <a href="https://t.me/+fzgLtxRL5MowNGFi"><img src="icon/free-icon-telegram-2111710.png" width="50px" height="50px"></a>
+</section>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>
+
+
